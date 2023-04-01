@@ -85,9 +85,9 @@ public class Product implements Serializable {
         this.imgUrl = imgUrl;
     }
     
-    public void setCategories(Set<Category> categories)
+    public Set<Category> getCategories()
     {
-        this.categories = categories;
+        return categories;
     }
     
     @Override
